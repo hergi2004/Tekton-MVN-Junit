@@ -3,11 +3,11 @@
 ```
 $ kubectl create -f pvc.yaml
 
-$ kubectl create -f maven-task.yaml
+$ kubectl create -f task.yaml
 
-$ kubectl create -f maven-pipeline.yaml
+$ kubectl create -f pipeline.yaml
 
-$ kubectl create -f maven-pipelinerun.yaml
+$ kubectl create -f pipelinerun.yaml
 ```
 
 Affinity assistant 
