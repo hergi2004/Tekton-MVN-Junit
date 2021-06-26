@@ -13,7 +13,7 @@ spec:
         - name: url
           # value: https://github.com/spring-projects/spring-petclinic
           # value: https://github.com/LableOrg/java-maven-junit-helloworld
-          value: https://github.com/hergi2004/Maven-Junit.git
+          value: https://github.com/hergi2004/Tekton-MVN-Junit.git
   workspaces:
   - name: local-maven-repo
     persistentVolumeClaim:
