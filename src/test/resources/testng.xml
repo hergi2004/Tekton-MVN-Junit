@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+  <test name="Test1" >
+    <classes>
+       <class name="mavenpackage.DemoMavenVsCode" />
+    </classes>
+  </test>
+
+  <test name="Test2">
+    <classes>
+      <class name="mavenpackage.DoSomeActionTest"/>
+    </classes>
+  </test>
+
+</suite>
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+  <test name="Test">
+    <packages>
+      <package name="mavenpackage.DemoMavenVSCode.class" />
+   </packages>
+ </test>
+</suite> -->
