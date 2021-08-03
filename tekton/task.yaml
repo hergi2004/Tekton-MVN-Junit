@@ -1,8 +1,7 @@
 apiVersion: tekton.dev/v1alpha1
 kind: Task
 metadata:
-  name: mvn
-  # namespace: tekton
+  name: e2e
 spec:
   workspaces:
   - name: maven-repo
@@ -17,7 +16,7 @@ spec:
       type: git
   steps:
     - name: mvn
-      image: gcr.io/cloud-builders/mvn
+      image: quay.io/vapo/cloudbuilder-mvn:v1.0.3
       workingDir: /workspace/source
       command: ["/usr/bin/mvn"]
       args:
